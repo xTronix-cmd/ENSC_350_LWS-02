@@ -4,6 +4,10 @@
 # Allow Git to traverse directories
 !*/
 
+# Ignore db/
+db/
+db/*
+
 # Quartus project definition files
 !*.qpf
 !*.qsf
