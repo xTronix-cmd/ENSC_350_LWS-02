@@ -1,0 +1,25 @@
+# Ignore everything by default
+*
+
+# Allow Git to traverse directories
+!*/
+
+# Quartus project definition files
+!*.qpf
+!*.qsf
+
+# HDL source files
+!*.vhd
+!*.v
+!*.sv
+
+# Constraints and scripts
+!*.sdc
+!*.tcl
+
+# Documentation
+!*.md
+!*.txt
+
+# Keep this ignore file itself
+!.gitignore
