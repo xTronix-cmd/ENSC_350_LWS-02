@@ -4,6 +4,10 @@
 # Allow Git to traverse directories
 !*/
 
+# Do not ignore Documentation directory and its contents
+!Documentation/
+!Documentation/**
+
 # Ignore db/
 db/
 db/*
